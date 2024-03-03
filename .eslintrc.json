@@ -1,0 +1,7 @@
+{
+  "extends": "next/core-web-vitals",
+  "default-case": "off",
+  "@typescript-eslint/switch-exhaustiveness-check": "error",
+  "@typescript-eslint/no-unsafe-call": "off",
+  "@typescript-eslint/no-unsafe-assignment": "off"
+}
