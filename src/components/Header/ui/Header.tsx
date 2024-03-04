@@ -26,11 +26,11 @@ export const Header:React.FC<HeaderProps> = ({mode}) => {
 
                     }
                     <div className={'flex flex-col justify-start'}>
-                        <p className='text-lg'>Название</p> 
-                        <p className='text-sm'>твой помощник в учебе</p>
+                        <p className='text-lg font-extrabold'>Название</p> 
+                        <p className='text-sm font-light'>твой помощник в учебе</p>
                     </div>
                 </div>
-                <div className={'flex flex-row items-center gap-x-16'}>
+                <div className={'flex flex-row items-center gap-x-16 font-extrabold'}>
                     <p>
                         Темы
                     </p>

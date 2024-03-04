@@ -22,8 +22,8 @@ export default function Home() {
     <main className={"flex min-h-screen flex-col items-center justify-center bg-main-top-img"}>
        <Header mode={HeaderMode.WHITE} />
       <div className={"flex flex-col items-center justify-center gap-y-4 pb-60 pt-96"}>
-          <p className={'text-3xl'}>Заряжай свой потенциал с электротехникой!</p>
-          <div className={"flex flex-col items-center justify-center"}>
+          <p className={'text-3xl font-extrabold'}>Заряжай свой потенциал с электротехникой!</p>
+          <div className={"flex flex-col items-center justify-center font-light"}>
             <p>Удобный сайт с полезными материалами для подготовки к экзаменам по </p>
             <p>электротехнике, электронике и схемотехнике, а также для самостоятельного изучения</p>
             <p> ключевых концепций электротехники в удобном формате.</p>
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
       </div>
       <div className={'flex flex-col items-center justify-center bg-gradient-to-t  from-white to-bottom-start w-full  px-80 pb-60 pt-24 relative gap-y-52'}>
-        <div className={'flex flex-row gap-x-36 h-96'}>
+        <div className={'flex flex-row gap-x-36'}>
               <InfoCard placeholder={"Подготовка к парам и экзаменам"} icon={<BookIcon/>}>
                 <p>Наш сайт предлагает широкий выбор
                   материалов для подготовки к экзаменам по
@@ -59,7 +59,7 @@ export default function Home() {
        
           
           <InfoCard placeholder={"Самостоятельное обучение"} icon={<StudentsIcon/>}>
-            <p className="w-full text-justify">Мы предлагаем доступ к разнообразным   
+            <p>Мы предлагаем доступ к разнообразным   
                ресурсам, включая статьи, практические    
                 задания и тесты для проверки знаний. Наш 
                 ресурс разработан так, чтобы вы могли легко 
@@ -71,9 +71,9 @@ export default function Home() {
         </div>
         <div className={'flex  text-black flex-row bg-telegram px-36 py-40 bg-no-repeat w-[1179px]'}>
           <div className={'flex flex-col w-full gap-y-5'}>
-              <p className="text-3xl">У нас есть телеграм-бот!</p>
+              <p className="text-3xl font-bold">У нас есть телеграм-бот!</p>
               <div className={'text-lg'}>
-              <p >Добавляй бота в беседу с одногруппниками или обращайся </p>
+              <p>Добавляй бота в беседу с одногруппниками или обращайся </p>
               <p>к нему для личного пользования. Бот быстро найдет ответ на</p>
               <p> интересующий тебя вопрос!</p>
               </div>

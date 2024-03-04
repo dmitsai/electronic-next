@@ -23,7 +23,7 @@ export const NavInput: React.FC<NavInputProps> = ({ href, exact = false, classNa
             href={href}
             className={`flex h-12 w-full rounded-full border px-7 text-xs outline-none justify-between items-center bg-white text-black ${isActive ? 'border-header-blue' : 'border-white' } ${className}`}
         >
-            <p className={`flex transform transition-all`}>Найти...</p>
+            <p className={`flex transform transition-all text-lg text-gray-300 font-normal`}>Найти...</p>
            <SearchIcon  className={`h-4 w-4 stroke-gray-600   transform transition-all`}/>
         </Link>
     );

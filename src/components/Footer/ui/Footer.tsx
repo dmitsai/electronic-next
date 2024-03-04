@@ -14,13 +14,13 @@ export const Footer = () => {
                             <IconLogo />
                         </div>
                         <div className={'flex flex-col justify-start'}>
-                            <p className='text-lg'>Название</p> 
-                            <p className='text-sm'>твой помощник в учебе</p>
+                            <p className='font-bold'>Название</p> 
+                            <p className='text-sm font-light'>твой помощник в учебе</p>
                         </div>
                     </div>
-                    <p>Сайт разработан студентами КубГТУ</p> 
+                    <p className='font-bold'>Сайт разработан студентами КубГТУ</p> 
                 </div> 
-               <div className={'flex flex-row items-center gap-x-16'}>
+               <div className={'flex flex-row items-center gap-x-16 font-bold'}>
                     <p>
                         Темы
                     </p>
@@ -47,18 +47,20 @@ export const Footer = () => {
                     </p>
                </div>
             </div>
-            <div className={'flex flex-col justify-end '}>
-                <p>Связанное с нами</p>
-                <div className={'flex flex-row gap-x-2'}>
-                    <div  className = {'flex w-6 h-6'}>
+            <div className={'flex flex-col justify-end items-center'}>
+                <p className='font-bold'>Связанное с нами</p>
+                <div className={'flex flex-row gap-x-2 items-center'}>
+                    <div className={'flex flex-row items-center gap-x-4'}>
+                    <div  className = {'flex w-8 h-8'}>
                         <VkLogo/>
                     </div>
-                    <div  className = {'flex w-6 h-6'}>
+                    <div  className = {'flex w-8 h-8'}>
                         <TgLogo />
                     </div>
-                    <div  className = {'flex w-7 h-7'}>
+                    </div>
+                    <div className = {'flex w-11 h-11'}>
                         <Emblem />
-                    </div>              
+                    </div>
                 </div>
             </div>
         </footer>

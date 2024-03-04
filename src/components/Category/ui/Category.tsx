@@ -9,7 +9,7 @@ export const Category:React.FC<CategoryProps>= ({placeholder,hrefTheory})=> {
 
     return (
         <div className={`flex flex-col`}>
-            <p className={`text-lg`}>{placeholder}</p>
+            <p className={`text-lg font-bold`}>{placeholder}</p>
             <div className={'flex flex-row gap-x-2 items-center'}>
             <Activity placeholder={"Теория"} href={hrefTheory}/>
             <Activity placeholder={"Задачи"}/>
