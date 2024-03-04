@@ -6,6 +6,7 @@ import WhiteIconLogo from '~/assets/icons/white-logo.svg'
 import BlueIconSearch from '~/assets/icons/blue-seacrh.svg';
 import BlueIconDots from '~/assets/icons/blue-dots.svg';
 import {type HeaderModeType, HeaderMode } from '../model/constants';
+import Link from 'next/link';
 
 interface HeaderProps {
     mode: HeaderModeType;
@@ -16,13 +17,13 @@ export const Header:React.FC<HeaderProps> = ({mode}) => {
         <header className={`z-50 flex w-full flex-row items-center justify-between  px-32 h-fit pt-5 ${mode === HeaderMode.WHITE ? 'text-white': 'text-btn-blue'}`}>
                 <div className='flex flex-row items-center gap-x-2'>
                     { mode === HeaderMode.WHITE ? 
-                    <div className={'flex bg-white rounded-lg w-12 h-12 pl-1'}>
+                    <Link className={'flex bg-white rounded-lg w-12 h-12 pl-1'} href={'/'} >
                         <IconLogo /> 
-                    </div> 
+                    </Link> 
                     : 
-                    <div className={'flex bg-btn-blue rounded-lg w-12 h-12 items-center justify-center'}>
+                    <Link href={'/'} className={'flex bg-btn-blue rounded-lg w-12 h-12 items-center justify-center'}>
                         <WhiteIconLogo className = {'w-7 h-7'}/>
-                    </div> 
+                    </Link> 
 
                     }
                     <div className={'flex flex-col justify-start'}>
