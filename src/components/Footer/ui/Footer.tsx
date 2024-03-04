@@ -6,7 +6,7 @@ import Emblem from '~/assets/icons/emblem.svg';
 export const Footer = () => {
 
     return (
-        <footer className={'flex flex-row bg-footer w-full text-white py-10 justify-around px-10'}>
+        <footer className={'flex flex-row bg-footer w-full text-white py-10 justify-around '}>
             <div className={'flex flex-col gap-y-4'}>
                 <div className={'flex flex-row w-full gap-x-16 items-center'}>
                     <div className='flex flex-row items-center gap-x-2'>
@@ -20,7 +20,7 @@ export const Footer = () => {
                     </div>
                     <p className='font-bold'>Сайт разработан студентами КубГТУ</p> 
                 </div> 
-               <div className={'flex flex-row items-center gap-x-16 font-bold'}>
+               <div className={'flex flex-row items-center gap-x-5 font-bold'}>
                     <p>
                         Темы
                     </p>

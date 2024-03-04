@@ -30,7 +30,7 @@ export default function Home() {
           </div>
         <NavInput href={"/theme"}/>
       </div>
-      <div className={'flex flex-row gap-x-5  items-center justify-between py-32 mt-40 w-full px-80  bg-gradient-to-r from-mid-end via-mid-center to-mid-end' }>
+      <div className={'flex flex-row gap-x-5  items-center justify-around py-32 mt-40 w-full  bg-gradient-to-r from-mid-end via-mid-center to-mid-end' }>
           <div className={'flex flex-col gap-y-24 text-category-title'}> 
             <Category placeholder={"Основы электростатики"}/>
             <Category placeholder={"Электромагнетизм и электромагнитная индукция"}/>
@@ -44,9 +44,9 @@ export default function Home() {
             <Category placeholder={"Че-то умное тут будет"}/>
           </div>
       </div>
-      <div className={'flex flex-col items-center justify-center bg-gradient-to-t  from-white to-bottom-start w-full  px-80 pb-60 pt-24 relative gap-y-52'}>
+      <div className={'flex flex-col items-center justify-center bg-gradient-to-t  from-white to-bottom-start w-full px-32  py-24 relative gap-y-52'}>
         <div className={'flex flex-row gap-x-36'}>
-              <InfoCard placeholder={"Подготовка к парам и экзаменам"} icon={<BookIcon/>}>
+              <InfoCard placeholder={"Подготовка к парам и экзаменам"} icon={<BookIcon className= {'w-24 h-24'}/>}>
                 <p>Наш сайт предлагает широкий выбор
                   материалов для подготовки к экзаменам по
                     таким предметам, как электротехника,
@@ -58,7 +58,7 @@ export default function Home() {
               </InfoCard>
        
           
-          <InfoCard placeholder={"Самостоятельное обучение"} icon={<StudentsIcon/>}>
+          <InfoCard placeholder={"Самостоятельное обучение"} icon={<StudentsIcon className= {'w-24 h-24'}/>}>
             <p>Мы предлагаем доступ к разнообразным   
                ресурсам, включая статьи, практические    
                 задания и тесты для проверки знаний. Наш 
