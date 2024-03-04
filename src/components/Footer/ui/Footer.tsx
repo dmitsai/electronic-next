@@ -51,14 +51,14 @@ export const Footer = () => {
                 <p className='font-bold'>Связанное с нами</p>
                 <div className={'flex flex-row gap-x-2 items-center'}>
                     <div className={'flex flex-row items-center gap-x-4'}>
-                    <div  className = {'flex w-8 h-8'}>
+                    <div  className = {'flex w-9 h-9'}>
                         <VkLogo/>
                     </div>
-                    <div  className = {'flex w-8 h-8'}>
+                    <div  className = {'flex w-9 h-9'}>
                         <TgLogo />
                     </div>
                     </div>
-                    <div className = {'flex w-11 h-11'}>
+                    <div className = {'flex w-14 h-14'}>
                         <Emblem />
                     </div>
                 </div>
