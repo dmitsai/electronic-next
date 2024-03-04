@@ -53,7 +53,7 @@ export const Header:React.FC<HeaderProps> = ({mode}) => {
                         mode === HeaderMode.WHITE ?
                     <IconSearch  className= {'w-6 h-6'}/> 
                     :
-                    <BlueIconSearch/>
+                    <BlueIconSearch className= {'w-6 h-6'}/>
 
                     }
                 </div>

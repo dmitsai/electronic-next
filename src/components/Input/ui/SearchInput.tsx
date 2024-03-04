@@ -19,7 +19,7 @@ export const SearchInput:React.FC = () => {
         <label
             className={'pointer-events-none absolute transform transition-all left-0 top-0 px-10 h-full items-center pl-2 text-xs  text-slate-700  flex flex-row w-full justify-between'}
         >
-           <p className={`flex  pl-10 transform transition-all ${inputValue? 'hidden':''}`}>Найти...</p>
+           <p className={`flex  pl-10 transform transition-all text-lg text-gray-300 font-normal ${inputValue? 'hidden':''}`}>Найти...</p>
            <SearchIcon  className={`h-4 w-4 stroke-gray-600   transform transition-all ${inputValue? 'hidden':''}`}/>
         </label>
     </div>

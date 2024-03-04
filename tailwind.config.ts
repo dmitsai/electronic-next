@@ -26,6 +26,7 @@ const config: Config = {
         'bottom-start': '#A7A7A7',
         'btn-blue':'#3E5DAF',
         'footer':'#1D1F2F',
+        'atom-end': '#D1DEFF',
 
       },
       fontFamily: {
