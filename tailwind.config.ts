@@ -13,7 +13,8 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
           "main-top-img" : "url('../assets/icons/bg.svg')",
-          'telegram': "url('../assets/icons/tg-bg.svg')"
+          'telegram': "url('../assets/icons/tg-bg.svg')",
+          'theme-bg': "url(../assets/icons/theme-bg.svg)",
           
       },
       colors: {
@@ -24,6 +25,7 @@ const config: Config = {
         'mid-end': '#E4ECFF',
         'bottom-start': '#A7A7A7',
         'btn-blue':'#3E5DAF',
+        'footer':'#1D1F2F',
 
       }
     },
