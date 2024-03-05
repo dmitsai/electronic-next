@@ -20,7 +20,10 @@ export default function BasicElectro() {
             </div>
             <Header mode={HeaderMode.BLUE} />
             <div className={'flex w-full flex-col items-center justify-center gap-y-5 px-36 py-56'}>
-                <p className={'text-3xl font-bold text-btn-blue'}>Измерение электрических величин и параметров электрических цепей</p>
+              <div className='flex flex-col w-full text-justify items-center'>
+                <p className={'text-3xl font-bold text-btn-blue'}>Измерение электрических величин и параметров</p>
+                <p className={'text-3xl font-bold text-btn-blue'}>электрических цепей</p>
+                </div>
                 <div className={'flex w-full flex-row justify-center gap-x-4 px-72'}>
                     <Activity placeholder={'Задачи'} />
                     <Activity placeholder={'Тесты'} />
