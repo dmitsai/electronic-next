@@ -22,8 +22,8 @@ export default function Home() {
     <main className={"flex min-h-screen flex-col items-center justify-center bg-main-top-img"}>
        <Header mode={HeaderMode.WHITE} />
       <div className={"flex flex-col items-center justify-center gap-y-4 pb-60 pt-96"}>
-          <p className={'text-3xl font-extrabold'}>Заряжай свой потенциал с электротехникой!</p>
-          <div className={"flex flex-col items-center justify-center font-light"}>
+          <p className={'text-3xl font-extrabold text-white'}>Заряжай свой потенциал с электротехникой!</p>
+          <div className={"flex flex-col items-center justify-center font-light text-white"}>
             <p>Удобный сайт с полезными материалами для подготовки к экзаменам по </p>
             <p>электротехнике, электронике и схемотехнике, а также для самостоятельного изучения</p>
             <p> ключевых концепций электротехники в удобном формате.</p>
