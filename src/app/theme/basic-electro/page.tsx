@@ -27,7 +27,7 @@ export default function BasicElectro() {
                 </div>
                 <div
                     className={
-                        'flex flex-col  items-start  justify-start  gap-y-6 rounded-3xl bg-btn-blue bg-opacity-30 px-10 py-16'
+                        'flex flex-col  items-start  justify-start  gap-y-6 rounded-3xl bg-btn-blue bg-opacity-30 px-10 py-16 text-white'
                     }
                 >
                     <p className={'text-3xl  font-bold'}>1. Виды и методы измерения электрических величин</p>
