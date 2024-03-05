@@ -14,7 +14,7 @@ export const Footer = () => {
                             <IconLogo />
                         </div>
                         <div className={'flex flex-col justify-start'}>
-                            <p className='font-bold'>Название</p> 
+                            <p className='font-bold'>RLC</p> 
                             <p className='text-sm font-light'>твой помощник в учебе</p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ export const Footer = () => {
                         Телеграм-бот
                     </p>
                     <p>
-                        © Название 2024
+                        © RLC 2024
                     </p>
                </div>
             </div>

@@ -27,7 +27,7 @@ export const Header:React.FC<HeaderProps> = ({mode}) => {
 
                     }
                     <div className={'flex flex-col justify-start'}>
-                        <p className='text-lg font-extrabold'>Название</p> 
+                        <p className='text-lg font-extrabold'>RLC</p> 
                         <p className='text-sm font-light'>твой помощник в учебе</p>
                     </div>
                 </div>
